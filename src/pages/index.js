@@ -45,7 +45,7 @@ export default function Home() {
         <section style={{ marginTop: '3rem', padding: '3rem 2rem', backgroundColor: '#222', color: '#FF0000' }}>
           <h2 style={{ textShadow: '2px 2px 4px #000' }}>La menace est réelle</h2>
           <p>
-            Chaque jour, vous êtes surveillé. Vos actions sont contrôlées. <strong>Le temps d'agir est maintenant.</strong> Ne laissez pas votre liberté devenir un souvenir.
+            Chaque jour, vous êtes surveillé. Vos actions sont contrôlées. <strong>Le temps d'agir est maintenant.</strong>
           </p>
         </section>
 
@@ -53,7 +53,7 @@ export default function Home() {
         <section style={{ marginTop: '3rem', padding: '3rem 2rem', backgroundColor: '#111', color: '#fff', border: '2px solid #FF0000' }}>
           <h2 style={{ color: '#FF0000', textShadow: '1px 1px 3px #000' }}>Rejoignez la résistance</h2>
           <p>
-            Le combat pour votre vie privée n'est pas juste un choix—c'est une nécessité. Tenez-vous avec nous, ou écartez-vous.
+            Le combat pour votre vie privée n'est pas juste un choix—c'est une nécessité.
           </p>
         </section>
       </main>
