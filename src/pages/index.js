@@ -5,13 +5,13 @@ import Footer from '../components/Footer';
 export default function Home() {
   return (
     <>
-     <Head>
+      <Head>
         <title>Anti Jamf Club - Agissez</title>
         <meta name="description" content="Rejoignez la révolution et récupérez votre liberté avec Anti Jamf Club." />
       </Head>
       <Navbar />
       <main style={{ textAlign: 'center', padding: '2rem', backgroundColor: '#111', color: '#fff', minHeight: '100vh' }}>
-        {/* Hero Section */}
+        {/* Section Héro */}
         <section
           style={{
             padding: '10rem 2rem',
@@ -21,39 +21,39 @@ export default function Home() {
             boxShadow: '0 0 20px #FF0000',
           }}
         >
-          <h1 style={{ fontSize: '4rem', fontWeight: 'bold', textShadow: '2px 2px 4px #000' }}>Welcome to Anti Jamf Club</h1>
+          <h1 style={{ fontSize: '4rem', fontWeight: 'bold', textShadow: '2px 2px 4px #000' }}>Bienvenue sur Anti Jamf Club</h1>
           <p style={{ fontSize: '1.5rem', margin: '1rem 0', textShadow: '1px 1px 3px #000' }}>
-            Are you ready to escape control? Time is running out!
+            Êtes-vous prêt à échapper au contrôle ? Le temps presse !
           </p>
-				<a
-  					href="/techniques"
- 						style={{
-    				padding: '1rem 2rem',
-    				backgroundColor: '#FF0000',
-    				color: '#fff',
-    				borderRadius: '5px',
-    				fontSize: '1rem',
-    				textDecoration: 'none',
-  				  boxShadow: '0 0 10px #8B0000',
-  						}}
-						>
-  					Discover Techniques
+          <a
+            href="#join"
+            style={{
+              padding: '1rem 2rem',
+              backgroundColor: '#FF0000',
+              color: '#fff',
+              borderRadius: '5px',
+              fontSize: '1rem',
+              textDecoration: 'none',
+              boxShadow: '0 0 10px #8B0000',
+            }}
+          >
+            Agissez maintenant
           </a>
         </section>
 
-        {/* Fear Section */}
+        {/* Section de la peur */}
         <section style={{ marginTop: '3rem', padding: '3rem 2rem', backgroundColor: '#222', color: '#FF0000' }}>
-          <h2 style={{ textShadow: '2px 2px 4px #000' }}>The Threat is Real</h2>
+          <h2 style={{ textShadow: '2px 2px 4px #000' }}>La menace est réelle</h2>
           <p>
-            Every day, you are watched. Your actions are controlled. <strong>The time to act is now.</strong> Don't let your freedom be a memory.
+            Chaque jour, vous êtes surveillé. Vos actions sont contrôlées. <strong>Le temps d'agir est maintenant.</strong> Ne laissez pas votre liberté devenir un souvenir.
           </p>
         </section>
 
-        {/* Call to Arms */}
+        {/* Appel à l'action */}
         <section style={{ marginTop: '3rem', padding: '3rem 2rem', backgroundColor: '#111', color: '#fff', border: '2px solid #FF0000' }}>
-          <h2 style={{ color: '#FF0000', textShadow: '1px 1px 3px #000' }}>Join the Resistance</h2>
+          <h2 style={{ color: '#FF0000', textShadow: '1px 1px 3px #000' }}>Rejoignez la résistance</h2>
           <p>
-            The fight for your privacy is not just a choice—it's a necessity. Stand with us, or stand aside.
+            Le combat pour votre vie privée n'est pas juste un choix—c'est une nécessité. Tenez-vous avec nous, ou écartez-vous.
           </p>
         </section>
       </main>
