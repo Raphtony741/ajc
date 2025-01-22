@@ -3,7 +3,7 @@ export default function Footer() {
     <footer style={{ textAlign: 'center', padding: '1rem', backgroundColor: '#000', color: '#fff' }}>
       <p>&copy; 2025 Anti Jamf Club/Clan</p>
       <p>
-        Follow us: 
+        suivez-nous: 
         <a href="https://twitter.com" target="_blank" rel="noopener noreferrer"> Twitter</a> |
         <a href="https://github.com" target="_blank" rel="noopener noreferrer"> GitHub</a> |
         <a href="https://www.reddit.com/r/anti_jamf_club" target="_blank" rel="noopener noreferrer"> reddit</a>
