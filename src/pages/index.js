@@ -25,19 +25,19 @@ export default function Home() {
           <p style={{ fontSize: '1.5rem', margin: '1rem 0', textShadow: '1px 1px 3px #000' }}>
             Are you ready to escape control? Time is running out!
           </p>
-          <a
-            href="#join"
-            style={{
-              padding: '1rem 2rem',
-              backgroundColor: '#FF0000',
-              color: '#fff',
-              borderRadius: '5px',
-              fontSize: '1rem',
-              textDecoration: 'none',
-              boxShadow: '0 0 10px #8B0000',
-            }}
-          >
-            Take Action Now
+				<a
+  					href="/techniques"
+ 						style={{
+    				padding: '1rem 2rem',
+    				backgroundColor: '#FF0000',
+    				color: '#fff',
+    				borderRadius: '5px',
+    				fontSize: '1rem',
+    				textDecoration: 'none',
+  				  boxShadow: '0 0 10px #8B0000',
+  						}}
+						>
+  					Discover Techniques
           </a>
         </section>
 
