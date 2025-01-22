@@ -1,22 +1,19 @@
 {
-  "name": "ajcqc",
-  "version": "1.0.0",
-  "private": true,
-  "scripts": {
-    "dev": "next dev",
-    "build": "next build",
-    "start": "next start"
-  },
-  "dependencies": {
-    "next": "latest",
-    "react": "latest",
-    "react-dom": "latest",
-    "i18next": "^22.0.6",
-    "next-i18next": "^13.3.0",
-    "react-i18next": "^13.0.0"
-  },
-  "devDependencies": {
-    "style-loader": "^4.0.0",
-    "css-loader": "^7.1.2"
-  }
+	"name":"ajcqc",
+	"version":"1.0.0",
+	"private":true,
+"scripts":{
+    "dev":"next dev",
+		"build":"next build",
+    "start":"next start"},
+    
+"dependencies":{
+  "css-loader":"^7.1.2",
+  "i18next":"^24.2.1",
+  "next":"latest",
+  "next-i18next":"^15.4.1",
+  "react":"latest",
+  "react-dom":"latest",
+  "react-i18next":"^15.4.0"},
+  "devDependencies":{"style-loader":"^4.0.0"}
 }
