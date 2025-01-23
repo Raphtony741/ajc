@@ -1,13 +1,17 @@
+// File: src/pages/about.js
 import Navbar from '../components/Navbar';
 import Footer from '../components/Footer';
+import { useTranslation } from 'react-i18next';
 
 export default function About() {
+  const { t } = useTranslation();
+
   return (
     <>
       <Navbar />
-      <main style={{ padding: '2rem', backgroundColor: '#222', color: '#fff' }}>
-        <h1>About Us</h1>
-        <p>This is where you tell the story of the Anti Jamf Club/Clan. Modify this text as you see fit.</p>
+      <main>
+        <h1>{t('about')}</h1>
+        <p>{t('about_content')}</p> {/* Add a translation key for about content */}
       </main>
       <Footer />
     </>

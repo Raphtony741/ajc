@@ -1,0 +1,18 @@
+{
+    "welcome": "Welcome to Anti Jamf Club",
+    "title": "Anti Jamf Club",
+    "description": "Are you ready to escape control? Time is running out!",
+    "act_now": "Act Now",
+    "threat_is_real": "The threat is real",
+    "surveillance_message": "Every day, you are being watched. Your actions are controlled. The time to act is now.",
+    "join_resistance": "Join the Resistance",
+    "privacy_fight": "The fight for your privacy is not just a choice—it's a necessity.",
+    "home": "home",
+    "about": "about",
+    "about_content": "This is where you tell the story of the Anti Jamf Club/Clan. Modify this text as you see fit.",
+    "techniques_content": "Learn how to bypass Jamf here. Add or update content as needed.",
+    "latest_technique": "Latest Technique",
+    "latest_technique_description": "Description of the latest technique goes here.",
+    "get_latest_technique": "Get the Latest Technique",
+    "techniques": "techniques" 
+  }

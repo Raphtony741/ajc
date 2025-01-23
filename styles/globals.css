@@ -1,0 +1,27 @@
+/* File: styles/globals.css */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html, body {
+  height: 100%;
+  background-color: #111; /* Set a default background color */
+  color: #fff; /* Set a default text color */
+}
+
+main {
+  min-height: 100vh; /* Ensure the main section takes at least the full height of the viewport */
+  display: flex;
+  flex-direction: column; /* Stack children vertically */
+  justify-content: center; /* Center content vertically */
+  align-items: center; /* Center content horizontally */
+  padding: 2rem; /* Add padding */
+}
+
+#root {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+}

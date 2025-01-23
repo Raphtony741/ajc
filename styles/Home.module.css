@@ -1,21 +1,42 @@
+/* File: styles/Home.module.css */
 .navbar {
   display: flex;
-  justify-content: center;
-  background-color: #111;
-  padding: 1rem;
+  justify-content: space-between; /* Espace entre les éléments */
+  align-items: center; /* Aligne verticalement les éléments */
+  background-color: #222; /* Couleur de fond de la navbar */
+  padding: 1rem 2rem; /* Rembourrage */
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3); /* Ombre */
 }
 
 .navbar ul {
-  list-style: none;
-  display: flex;
-  gap: 1rem;
+  list-style: none; /* Supprime les puces */
+  display: flex; /* Affiche les éléments en ligne */
+  gap: 1.5rem; /* Espace entre les éléments */
 }
 
 .navbar li a {
-  color: #fff;
-  text-decoration: none;
+  color: #fff; /* Couleur du texte */
+  text-decoration: none; /* Supprime le soulignement */
+  font-weight: bold; /* Met le texte en gras */
+  transition: color 0.3s; /* Transition douce pour le changement de couleur */
 }
 
 .navbar li a:hover {
-  color: #ff0000;
+  color: #ff0000; /* Couleur au survol */
 }
+/* File: styles/Home.module.css */
+.button {
+  padding: 0.5rem 1rem; /* Rembourrage */
+  background-color: #ff0000; /* Couleur de fond */
+  color: #fff; /* Couleur du texte */
+  border: none; /* Pas de bordure */
+  border-radius: 5px; /* Coins arrondis */
+  cursor: pointer; /* Curseur en main */
+  transition: background-color 0.3s, transform 0.3s; /* Transition douce */
+  font-size: 1rem; /* Taille de la police */
+}
+
+.button:hover {
+  background-color: #cc0000; /* Couleur au survol */
+  transform: scale(1.05); /* Agrandissement au survol */
+};
