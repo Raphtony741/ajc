@@ -5,7 +5,7 @@ export default function Footer() {
       <p>
         suivez-nous: 
         <a href="https://twitter.com" target="_blank" rel="noopener noreferrer"> Twitter</a> |
-        <a href="https://github.com" target="_blank" rel="noopener noreferrer"> GitHub</a> |
+        <a href="https://discord.gg/9S8gjy8wsH" target="_blank" rel="noopener noreferrer"> Discord</a> |
         <a href="https://www.reddit.com/r/anti_jamf_club" target="_blank" rel="noopener noreferrer"> reddit</a>
       </p>
     </footer>
