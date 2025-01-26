@@ -7,14 +7,15 @@
     "surveillance_message": "Chaque jour, vous êtes surveillé. Vos actions sont contrôlées. Le temps d'agir est maintenant.",
     "join_resistance": "Rejoignez la résistance",
     "privacy_fight": "Le combat pour votre vie privée n'est pas juste un choix—c'est une nécessité.",
-
     "home": "accueil", 
     "about": "à propos", 
     "techniques": "techniques",
-
     "about_content": "C'est ici que vous racontez l'histoire du Club/Clan Anti Jamf. Modifiez ce texte comme bon vous semble.",
     "techniques_content": "Apprenez à contourner Jamf ici. Ajoutez ou mettez à jour le contenu selon vos besoins.",
     "latest_technique": "Dernière Technique",
     "latest_technique_description": "Description de la dernière technique ici.",
-    "get_latest_technique": "Obtenez la Dernière Technique"
+    "get_latest_technique": "Obtenez la Dernière Technique",
+  	"techniques_help": "Aide sur les Techniques",
+  	"techniques_help_description": "Voici quelques ressources pour vous aider à comprendre la technique #2 d'anti-Jamf.",
+  	"video_resources": "Ressources Vidéo"
   }
