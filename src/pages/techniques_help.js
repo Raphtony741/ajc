@@ -1,4 +1,6 @@
 import { useTranslation } from 'react-i18next';
+import Navbar from '../components/Navbar';
+import Footer from '../components/Footer';
 
 export default function TechniquesHelp() {
   const { t } = useTranslation();
