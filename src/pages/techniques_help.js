@@ -13,23 +13,38 @@ export default function TechniquesHelp() {
         <h1>{t('techniques_help')}</h1>
         <p>{t('techniques_help_description')}</p>
         <h2>{t('video_resources')}</h2>
-        <ul>
-          <li>
-            <a href="https://www.youtube.com/watch?v=your_video_id" target="_blank" rel="noopener noreferrer">
-              Your Video Title
-            </a>
-          </li>
-          <li>
-            <a href="https://www.youtube.com/watch?v=another_video_id" target="_blank" rel="noopener noreferrer">
-              Another Video Title
-            </a>
-          </li>
-          <li>
-            <a href="https://www.youtube.com/watch?v=yet_another_video_id" target="_blank" rel="noopener noreferrer">
-              Yet Another Video Title
-            </a>
-          </li>
-        </ul>
+
+        {/* Your own video */}
+        <h3>Your Video</h3>
+        <video width="640" height="360" controls>
+          <source src="/path/to/your/video.mp4" type="video/mp4" />
+          Your browser does not support the video tag.
+        </video>
+
+        {/* YouTube videos */}
+        <h3>YouTube Videos</h3>
+        <div style={{ margin: '20px 0' }}>
+          <iframe
+            width="640"
+            height="360"
+            src="https://www.youtube.com/embed/your_video_id"
+            title="YouTube Video"
+            frameBorder="0"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+            allowFullScreen
+          ></iframe>
+        </div>
+        <div style={{ margin: '20px 0' }}>
+          <iframe
+            width="640"
+            height="360"
+            src="https://www.youtube.com/embed/another_video_id"
+            title="YouTube Video"
+            frameBorder="0"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+            allowFullScreen
+          ></iframe>
+        </div>
       </main>
       <Footer />
     </>
