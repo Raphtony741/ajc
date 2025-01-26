@@ -14,5 +14,8 @@
     "latest_technique": "Latest Technique",
     "latest_technique_description": "Description of the latest technique goes here.",
     "get_latest_technique": "Get the Latest Technique",
-    "techniques": "techniques" 
+    "techniques": "techniques",
+  	"techniques_help": "Techniques Help",
+  	"techniques_help_description": "Here are some resources to help you understand method 2.",
+  	"video_resources": "Video Resources"
   }
