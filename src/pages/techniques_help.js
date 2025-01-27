@@ -33,6 +33,7 @@ export default function TechniquesHelp() {
             allowFullScreen
           ></iframe>
         </div>
+        <h4>redémarrer l'ordinateur après le changement de dns.</h4>
         <div style={{ margin: '20px 0' }}>
           <iframe
             width="640"
@@ -44,6 +45,7 @@ export default function TechniquesHelp() {
             allowFullScreen
           ></iframe>
         </div>
+        <h5>partager votre connexion wifi qui bloque *jamfcloud.com sur votre Ipad.</h5>
       </main>
       <Footer />
     </>
