@@ -16,8 +16,8 @@ i18n
   .use(initReactI18next)
   .init({
     resources,
-    lng: 'en',  // Default language
-    fallbackLng: 'en',  // In case the language is not available
+    lng: 'fr',  // Default language
+    fallbackLng: 'fr',  // In case the language is not available
     interpolation: {
       escapeValue: false, // React already does escaping
     },
