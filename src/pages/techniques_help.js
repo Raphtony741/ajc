@@ -26,7 +26,7 @@ export default function TechniquesHelp() {
           <iframe
             width="640"
             height="360"
-            src="https://youtu.be/dqraxFrc8Kg?si=8Zo-e2yW_LJeu9rM"
+            src="https://youtube.com/embed/dqraxFrc8Kg?si=8Zo-e2yW_LJeu9rM"
             title="ajoutez vos dns (veuillez prendre notes de redémarrer votre ordinateur après le changement de dns"
             frameBorder="0"
             allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
@@ -37,7 +37,7 @@ export default function TechniquesHelp() {
           <iframe
             width="640"
             height="360"
-            src="https://youtu.be/8PcGqJt8Ako?si=bxOPiZ4dqHTgOPfw"
+            src="https://youtube.com/embed/8PcGqJt8Ako?si=bxOPiZ4dqHTgOPfw"
             title="partager votre connexion wifi qui bloque *jamfcloud.com sur votre Ipad"
             frameBorder="0"
             allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
