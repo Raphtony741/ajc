@@ -45,7 +45,6 @@ export default function TechniquesHelp() {
             allowFullScreen
           ></iframe>
         </div>
-        <h5>partager votre connexion wifi qui bloque *jamfcloud.com sur votre Ipad.</h5>
       </main>
       <Footer />
     </>
