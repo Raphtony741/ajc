@@ -12,7 +12,6 @@ export default function TechniquesHelp() {
       <main style={{ padding: '2rem', textAlign: 'center' }}>
         <h1>{t('techniques_help')}</h1>
         <p>{t('techniques_help_description')}</p>
-        <h2>{t('video_resources')}</h2>
 
         {/* Your own video */}
         <h3>{t('step1')}</h3>
@@ -21,7 +20,7 @@ export default function TechniquesHelp() {
           Your browser does not support the video tag.
         </video>
 
-        <h4>{t('step2')}</h4>
+        <h3>{t('step2')}</h3>
         <div style={{ margin: '20px 0' }}>
           <iframe
             width="640"
@@ -33,7 +32,7 @@ export default function TechniquesHelp() {
             allowFullScreen
           ></iframe>
         </div>
-        <h5>{t('step3')}</h5>
+        <h3>{t('step3')}</h3>
         <div style={{ margin: '20px 0' }}>
           <iframe
             width="640"
