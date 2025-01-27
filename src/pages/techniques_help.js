@@ -21,7 +21,7 @@ export default function TechniquesHelp() {
           Your browser does not support the video tag.
         </video>
 
-        <h3>YouTube Videos</h3>
+        <h4>{t('step2')}</h4>
         <div style={{ margin: '20px 0' }}>
           <iframe
             width="640"
@@ -33,7 +33,7 @@ export default function TechniquesHelp() {
             allowFullScreen
           ></iframe>
         </div>
-        <h4>redémarrer l'ordinateur après le changement de dns.</h4>
+        <h5>{t('step3')}</h5>
         <div style={{ margin: '20px 0' }}>
           <iframe
             width="640"

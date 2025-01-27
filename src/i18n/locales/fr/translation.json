@@ -18,5 +18,7 @@
   	"techniques_help": "Aide sur les Techniques",
   	"techniques_help_description": "Voici quelques ressources pour vous aider à comprendre la technique #2 d'anti-Jamf.",
   	"video_resources": "Ressources Vidéo",
-    "step1": "Étape 1: Créer votre server dns"
+    "step1": "Étape 1: Créer votre server dns",
+    "step2": "Étape 2 : ajoutez vos propres serveurs DNS à votre ordinateur (vous devez redémarrer votre ordinateur avant que le DNS ne prenne effet)",
+    "step3": "Étape 3 : démarrez un hotspot mobile et connectez votre iPad au nouveau hotspot wifi"
   }
