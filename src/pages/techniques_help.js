@@ -15,18 +15,19 @@ export default function TechniquesHelp() {
         <h2>{t('video_resources')}</h2>
 
         {/* Your own video */}
-        <h3>Your Video</h3>
+        <h3>{t('step1')}</h3>
         <video width="640" height="360" controls>
         <source src="/Vidéo_techniques.mp4" type="video/mp4" />
           Your browser does not support the video tag.
         </video>
+
         <h3>YouTube Videos</h3>
         <div style={{ margin: '20px 0' }}>
           <iframe
             width="640"
             height="360"
-            src="https://www.youtube.com/embed/your_video_id"
-            title="YouTube Video"
+            src="https://youtu.be/dqraxFrc8Kg?si=8Zo-e2yW_LJeu9rM"
+            title="ajoutez vos dns (veuillez prendre notes de redémarrer votre ordinateur après le changement de dns"
             frameBorder="0"
             allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
             allowFullScreen
@@ -36,8 +37,8 @@ export default function TechniquesHelp() {
           <iframe
             width="640"
             height="360"
-            src="https://www.youtube.com/embed/another_video_id"
-            title="YouTube Video"
+            src="https://youtu.be/8PcGqJt8Ako?si=bxOPiZ4dqHTgOPfw"
+            title="partager votre connexion wifi qui bloque *jamfcloud.com sur votre Ipad"
             frameBorder="0"
             allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
             allowFullScreen

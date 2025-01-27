@@ -17,5 +17,6 @@
     "techniques": "techniques",
   	"techniques_help": "Techniques Help",
   	"techniques_help_description": "Here are some resources to help you understand method 2.",
-  	"video_resources": "Video Resources"
+  	"video_resources": "Video Resources",
+    "step1": "step 1: create your own dns servers"
   }
