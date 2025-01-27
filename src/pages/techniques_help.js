@@ -17,7 +17,7 @@ export default function TechniquesHelp() {
         {/* Your own video */}
         <h3>Your Video</h3>
         <video width="640" height="360" controls>
-          <source src="/path/to/your/video.mp4" type="video/mp4" />
+          <source src="../../public/Vidéo_techniques.mp4" type="video/mp4" />
           Your browser does not support the video tag.
         </video>
 
