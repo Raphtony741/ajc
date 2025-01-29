@@ -2,7 +2,8 @@
 import Navbar from '../components/Navbar';
 import Footer from '../components/Footer';
 import { useTranslation } from 'react-i18next';
-import styles from '../../styles/Home.module.css'; // Import the styles
+import styles from '../../styles/Home.module.css';
+import Link from 'next/link'; // Import the styles
 
 export default function Technique() {
   const { t } = useTranslation();
@@ -16,7 +17,7 @@ export default function Technique() {
         <section>
           <h2>{t('latest_technique')}</h2>
           <p>{t('latest_technique_description')}</p>
-          <a href="https://external-shop-link.com" target="_blank" rel="noopener noreferrer">
+           <Link href="/docs/anti-jamf-method-v1.pdf">
             <button className={styles.button}>{t('get_latest_technique')}</button> {/* Apply the button class */}
           </a>
         </section>
