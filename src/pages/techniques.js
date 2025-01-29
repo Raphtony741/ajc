@@ -17,10 +17,19 @@ export default function Technique() {
         <section>
           <h2>{t('latest_technique')}</h2>
           <p>{t('latest_technique_description')}</p>
-          {/* Correctly closing the Link component */}
+          {/* Correctly styled button and link */}
           <Link href="/méthode anti-jamf v1.pdf">
             <a>
-              <button style={{ padding: '10px 20px', fontSize: '16px', marginTop: '20px' }}>
+              <button style={{ 
+                backgroundColor: 'red', 
+                color: 'white', 
+                padding: '10px 20px', 
+                fontSize: '16px', 
+                marginTop: '20px', 
+                border: 'none', 
+                borderRadius: '5px',
+                cursor: 'pointer'
+              }}>
                 Download Anti Jamf Method v1 PDF
               </button>
             </a>
