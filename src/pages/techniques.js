@@ -18,7 +18,7 @@ export default function Technique() {
           <h2>{t('latest_technique')}</h2>
           <p>{t('latest_technique_description')}</p>
           {/* Correctly styled button and link */}
-          <Link href="/méthode anti-jamf v1.pdf">
+          <Link href="/methode-anti-jamf-v1.pdf">
             <a>
               <button style={{ 
                 backgroundColor: 'red', 
