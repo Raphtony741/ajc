@@ -17,8 +17,11 @@ export default function Technique() {
         <section>
           <h2>{t('latest_technique')}</h2>
           <p>{t('latest_technique_description')}</p>
-           <Link href="/docs/anti-jamf-method-v1.pdf">
-            <button className={styles.button}>{t('get_latest_technique')}</button> {/* Apply the button class */}
+          		<Link href="/méthode anti-jamf v1.pdf">
+          	<a>
+           <button style={{ padding: '10px 20px', fontSize: '16px', marginTop: '20px' }}>
+18            Download Anti Jamf Method v1 PDF
+19          </button>
           </a>
         </section>
       </main>
