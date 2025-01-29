@@ -8,9 +8,7 @@
     "join_resistance": "Rejoignez la résistance",
     "privacy_fight": "Le combat pour votre vie privée n'est pas juste un choix—c'est une nécessité.",
     "home": "accueil", 
-    "about": "à propos d'AJC", 
     "techniques": "techniques",
-    "about_content":"Chez AJC, nous croyons en l’innovation, la simplicité et l’accessibilité. Notre mission est de créer des solutions efficaces et intuitives qui répondent aux besoins de chacun. \n \n Nous mettons un point d’honneur à offrir une expérience fluide et optimisée, où chaque détail compte. Avec une approche centrée sur l’utilisateur, nous construisons un avenir où la technologie est au service de tous, sans barrières ni complications. \n \n AJC, c’est plus qu’un projet. C’est une vision.",
     "techniques_content": "Apprenez à contourner Jamf ici. Ajoutez ou mettez à jour le contenu selon vos besoins.",
     "latest_technique": "Dernière Technique",
     "latest_technique_description": "Description de la dernière technique ici.",
@@ -21,4 +19,11 @@
     "step1": "Étape 1: Créer votre server dns",
     "step2": "Étape 2 : ajoutez vos propres serveurs DNS à votre ordinateur (vous devez redémarrer votre ordinateur avant que le DNS ne prenne effet)",
     "step3": "Étape 3 : démarrez un hotspot mobile et connectez votre iPad au nouveau hotspot wifi"
+      "about": {
+    "title": "À Propos d'AJC",
+    "content1": "Chez AJC, nous croyons en l’innovation, la simplicité et l’accessibilité. Notre mission est de créer des solutions efficaces et intuitives qui répondent aux besoins de chacun.",
+    "content2": "Nous mettons un point d’honneur à offrir une expérience fluide et optimisée, où chaque détail compte. Avec une approche centrée sur l’utilisateur, nous construisons un avenir où la technologie est au service de tous, sans barrières ni complications.",
+    "content3": "AJC, c’est plus qu’un projet. C’est une vision."
   }
+  }
+  
