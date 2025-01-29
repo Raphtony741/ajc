@@ -12,8 +12,8 @@ const About = () => {
       <Navbar />
       <main style={{ padding: '20px', textAlign: 'center' }}>
         <h1>{t('about.title')}</h1> {/* Using translation for title */}
-        <p>{t('about.content1')}</p> {/* Using translation for first paragraph */}
-        <p>{t('about.content2')}</p> {/* Using translation for second paragraph */}
+        <p style={{ marginBottom: '20px' }}>{t('about.content1')}</p> {/* Using translation for first paragraph with spacing */}
+        <p style={{ marginBottom: '20px' }}>{t('about.content2')}</p> {/* Using translation for second paragraph with spacing */}
         <p>{t('about.content3')}</p> {/* Using translation for third paragraph */}
       </main>
       <Footer />
