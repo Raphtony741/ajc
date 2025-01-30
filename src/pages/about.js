@@ -3,6 +3,7 @@
 import Navbar from '../components/Navbar'; // Importing Navbar
 import Footer from '../components/Footer'; // Importing Footer
 import { useTranslation } from 'react-i18next'; // Importing translation hook
+import { FaDiscord, FaReddit } from 'react-icons/fa'; // Importer les icônes
 
 const About = () => {
   const { t } = useTranslation(); // Initialize translation
@@ -15,6 +16,20 @@ const About = () => {
         <p style={{ marginBottom: '20px' }}>{t('about1.content1')}</p> {/* Using translation for first paragraph with spacing */}
         <p style={{ marginBottom: '20px' }}>{t('about1.content2')}</p> {/* Using translation for second paragraph with spacing */}
         <p>{t('about1.content3')}</p> {/* Using translation for third paragraph */}
+
+        {/* Nouvelle section pour le contact */}
+        <section style={{ marginTop: '40px' }}>
+          <h2>Vous avez des questions ?</h2>
+          <p>Contactez-nous :</p>
+          <p>
+            <a href="https://discord.gg/9S8gjy8wsH" target="_blank" rel="noopener noreferrer" style={{ margin: '0 10px' }}>
+              <FaDiscord size={24} /> Discord
+            </a> |
+            <a href="https://www.reddit.com/r/anti_jamf_club" target="_blank" rel="noopener noreferrer" style={{ margin: '0 10px' }}>
+              <FaReddit size={24} /> Reddit
+            </a>
+          </p>
+        </section>
       </main>
       <Footer />
     </>
