@@ -23,10 +23,10 @@ const About = () => {
           <p>Contactez-nous :</p>
           <p>
             <a href="https://discord.gg/9S8gjy8wsH" target="_blank" rel="noopener noreferrer" style={{ margin: '0 10px',color: "white" }}>
-              <FaDiscord size={24} color="blue" /> Discord
+              <FaDiscord size={30} color="blue" /> Discord
             </a> |
             <a href="https://www.reddit.com/r/anti_jamf_club" target="_blank" rel="noopener noreferrer" style={{ margin: '0 10px', color: "white" }}>
-              <FaReddit size={24} color="red" /> Reddit
+              <FaReddit size={30} color="red" /> Reddit
             </a>
           </p>
         </section>
