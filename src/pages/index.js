@@ -2,6 +2,7 @@ import Head from 'next/head';
 import Navbar from '../components/Navbar';
 import Footer from '../components/Footer';
 import { useTranslation } from 'react-i18next';
+import Link from 'next/link'; // Import Link from next/link
 
 export default function Home() {
   const { t } = useTranslation(); // Initialize the translation hook
@@ -30,9 +31,8 @@ export default function Home() {
           <p style={{ fontSize: '1.5rem', margin: '1rem 0', textShadow: '1px 1px 3px #000' }}>
             {t('description')} {/* Use translation for description */}
           </p>
-          <a
-           <Link href="/techniques">
-            style={{
+          <Link href="/techniques">
+            <a style={{
               padding: '1rem 2rem',
               backgroundColor: '#FF0000',
               color: '#fff',
@@ -40,10 +40,10 @@ export default function Home() {
               fontSize: '1rem',
               textDecoration: 'none',
               boxShadow: '0 0 10px #8B0000',
-            }}
-          >
-            {t('act_now')} {/* Add translation key for action button */}
-          </a>
+            }}>
+              {t('act_now')} {/* Add translation key for action button */}
+            </a>
+          </Link>
         </section>
 
         {/* Section de la peur */}
