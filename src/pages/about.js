@@ -11,10 +11,10 @@ const About = () => {
     <>
       <Navbar />
       <main style={{ padding: '20px', textAlign: 'center' }}>
-        <h1>{t('about.title')}</h1> {/* Using translation for title */}
-        <p style={{ marginBottom: '20px' }}>{t('about.content1')}</p> {/* Using translation for first paragraph with spacing */}
-        <p style={{ marginBottom: '20px' }}>{t('about.content2')}</p> {/* Using translation for second paragraph with spacing */}
-        <p>{t('about.content3')}</p> {/* Using translation for third paragraph */}
+        <h1>{t('about1.title')}</h1> {/* Using translation for title */}
+        <p style={{ marginBottom: '20px' }}>{t('about1.content1')}</p> {/* Using translation for first paragraph with spacing */}
+        <p style={{ marginBottom: '20px' }}>{t('about1.content2')}</p> {/* Using translation for second paragraph with spacing */}
+        <p>{t('about1.content3')}</p> {/* Using translation for third paragraph */}
       </main>
       <Footer />
     </>
