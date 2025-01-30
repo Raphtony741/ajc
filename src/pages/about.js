@@ -22,7 +22,7 @@ const About = () => {
           <h2>Vous avez des questions ?</h2>
           <p>Contactez-nous :</p>
           <p>
-            <a href="https://discord.gg/9S8gjy8wsH" target="_blank" rel="noopener noreferrer" style={{ margin: '0 10px',color: "white" }}>
+            <a href="https://discord.gg/Nhc2EWu8Af" target="_blank" rel="noopener noreferrer" style={{ margin: '0 10px',color: "white" }}>
               <FaDiscord size={30} color="blue" /> Discord
             </a> |
             <a href="https://www.reddit.com/r/anti_jamf_club" target="_blank" rel="noopener noreferrer" style={{ margin: '0 10px', color: "white" }}>
