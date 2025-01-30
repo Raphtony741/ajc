@@ -31,7 +31,7 @@ export default function Home() {
             {t('description')} {/* Use translation for description */}
           </p>
           <a
-            href="#join"
+           <Link href="/techniques">
             style={{
               padding: '1rem 2rem',
               backgroundColor: '#FF0000',
