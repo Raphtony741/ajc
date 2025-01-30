@@ -9,7 +9,7 @@ export default function Footer() {
         <a href="https://twitter.com" target="_blank" rel="noopener noreferrer" style={{ margin: '0 10px' }}>
           <FaTwitter size={20} style={{ verticalAlign: 'middle' }} /> Twitter
         </a> |
-        <a href="https://discord.gg/9S8gjy8wsH" target="_blank" rel="noopener noreferrer" style={{ margin: '0 10px' }}>
+        <a href="https://discord.gg/Nhc2EWu8Af" target="_blank" rel="noopener noreferrer" style={{ margin: '0 10px' }}>
           <FaDiscord size={20} style={{ verticalAlign: 'middle' }} /> Discord
         </a> |
         <a href="https://www.reddit.com/r/anti_jamf_club" target="_blank" rel="noopener noreferrer" style={{ margin: '0 10px' }}>
