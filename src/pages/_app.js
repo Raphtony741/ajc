@@ -1,8 +1,6 @@
 // src/pages/_app.js
 
 import { useState } from 'react';
-import Navbar from '../components/Navbar';
-import Footer from '../components/Footer';
 import '../../styles/globals.css';
 import '../i18n/i18n';
 import Popup from '../components/Popup'; // Importer le composant Popup
@@ -18,9 +16,7 @@ function MyApp({ Component, pageProps }) {
 
   return (
     <>
-      <Navbar />
       <Component {...pageProps} />
-      <Footer />
       {showPopup && (
         <Popup 
           message="Nouvelle méthode trouvée, date de sortie dans 5 jours." 
