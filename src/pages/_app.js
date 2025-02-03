@@ -19,6 +19,7 @@ function MyApp({ Component, pageProps }) {
       {showPopup && (
         <Popup 
           message={t('popup_message')} 
+          timeLeft={timeLeft}
           onClose={handleClosePopup} 
         />
       )}
