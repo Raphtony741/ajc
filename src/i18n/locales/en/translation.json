@@ -21,7 +21,7 @@
     "step1": "step 1: create your own DNS servers",
     "step2": "step 2: add your own DNS servers to your computer (you must restart your computer before the DNS takes effect)",
     "step3": "step 3: start a mobile hotspot and connect your ipad to the new wifi hotspot",
-  	"popup_message": "New deJAMF method found, released in",
+  	"popup_message": "New deJAMF method found, released in 2 weeks",
   	"about1": {
     	"title": "About Us",
     	"content1": "At AJC, we believe in innovation, simplicity, and accessibility. Our mission is to create efficient and intuitive solutions that meet everyone’s needs.",
