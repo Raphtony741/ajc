@@ -16,13 +16,13 @@ function MyApp({ Component, pageProps }) {
   return (
     <>
       <Component {...pageProps} />
-      {showPopup && (
-        <Popup 
-          message={t('popup_message')} 
-          timeLeft={timeLeft}
-          onClose={handleClosePopup} 
-        />
-      )}
+     {showPopup && timeLeft && (
+  <Popup 
+    message={t('popup_message')} 
+    timeLeft={timeLeft} 
+    onClose={handleClosePopup} 
+  />
+)}
     </>
   );
 }
