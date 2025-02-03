@@ -1,17 +1,16 @@
 // src/pages/_app.js
-
 import { useState } from 'react';
 import '../../styles/globals.css';
 import '../i18n/i18n';
-import Popup from '../components/Popup'; // Importer le composant Popup
+import Popup from '../components/Popup'; 
 import { useTranslation } from 'react-i18next';
 
 function MyApp({ Component, pageProps }) {
   const { t } = useTranslation();
-  const [showPopup, setShowPopup] = useState(true); // État pour gérer l'affichage du pop-up
+  const [showPopup, setShowPopup] = useState(true); 
 
   const handleClosePopup = () => {
-    setShowPopup(false); // Fermer le pop-up
+    setShowPopup(false); 
   };
 
   return (
@@ -19,7 +18,7 @@ function MyApp({ Component, pageProps }) {
       <Component {...pageProps} />
       {showPopup && (
         <Popup 
-          message="Nouvelle méthode trouvée, date de sortie dans 5 jours." 
+          message={t('popup_message')} 
           onClose={handleClosePopup} 
         />
       )}
