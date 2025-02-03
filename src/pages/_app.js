@@ -3,6 +3,8 @@
 import { useState } from 'react';
 import Navbar from '../components/Navbar';
 import Footer from '../components/Footer';
+import '../../styles/globals.css';
+import '../i18n/i18n';
 import Popup from '../components/Popup'; // Importer le composant Popup
 import { useTranslation } from 'react-i18next';
 
