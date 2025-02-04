@@ -12,6 +12,7 @@ export default function Home() {
       <Head>
         <title>{t('title')}</title> {/* Use translation for title */}
         <meta name="description" content={t('description')} /> {/* Use translation for description */}
+        <meta property="og:image" content="https://ajcqc.info/favicon.ico" />
       </Head>
       <Navbar />
       <main style={{ textAlign: 'center', padding: '2rem', backgroundColor: '#111', color: '#fff', minHeight: '100vh' }}>
