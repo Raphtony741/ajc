@@ -38,7 +38,7 @@ function MyApp({ Component, pageProps }) {
   return (
     <>
     <head>
-    <meta property="og:image" content="https://example.com/image.jpg" />
+    <meta property="og:image" content="https://ajcqc.info/favicon.ico" />
     </head>
       <Component {...pageProps} />
       {showPopup && timeLeft && ( // Vérification de timeLeft
