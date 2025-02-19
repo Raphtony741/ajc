@@ -34,6 +34,22 @@ export default function Technique() {
               </button>
             </a>
           </Link>
+            <Link href="/methode-dejamf-v2.pdf">
+            <a>
+              <button style={{ 
+                backgroundColor: 'red', 
+                color: 'white', 
+                padding: '10px 20px', 
+                fontSize: '16px', 
+                marginTop: '20px', 
+                border: 'none', 
+                borderRadius: '5px',
+                cursor: 'pointer'
+              }}>
+                Download déJamf Method v1 PDF
+              </button>
+            </a>
+          </Link>
         </section>
       </main>
       <Footer />
